@@ -1,0 +1,98 @@
+I, [2014-08-06T14:50:17.492081 #3887]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T14:50:18.552213 #3887]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-06T14:51:09.254880 #3887]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-06T14:54:48.887446 #4038]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T14:54:49.814855 #4038]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-06T14:54:55.097591 #4038]  INFO -- Kitchen: -----> Kitchen is finished. (0m6.21s)
+I, [2014-08-06T14:55:27.463832 #4097]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T14:55:28.069071 #4097]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-06T14:56:10.633716 #4097]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-06T14:58:04.328218 #4245]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T14:58:05.104808 #4245]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-06T14:58:09.742256 #4245]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.41s)
+I, [2014-08-06T14:59:22.185736 #4313]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T14:59:22.741100 #4313]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-06T15:00:04.565740 #4313]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-06T15:06:26.129306 #4597]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T15:06:26.876284 #4597]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-06T15:06:31.238380 #4597]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.11s)
+I, [2014-08-06T15:06:36.881795 #4656]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T15:06:37.434654 #4656]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-06T15:07:21.108451 #4656]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-06T15:16:56.897257 #4856]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T15:16:57.859175 #4856]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-06T15:17:02.220517 #4856]  INFO -- Kitchen: -----> Kitchen is finished. (0m5.32s)
+I, [2014-08-06T16:12:48.878492 #10063]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-06T16:12:49.771966 #10063]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-06T16:13:31.942098 #10063]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-07T09:27:24.114427 #11789]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-07T09:27:25.046189 #11789]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+I, [2014-08-07T09:36:14.390546 #11892]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-07T09:36:15.326833 #11892]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-07T09:38:42.671180 #12090]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-07T09:38:43.443698 #12090]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-07T09:38:49.247148 #12090]  INFO -- Kitchen: -----> Kitchen is finished. (0m6.58s)
+I, [2014-08-07T09:39:08.503978 #12163]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-07T09:39:09.114305 #12163]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-07T09:39:50.687309 #12163]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-08-07T10:04:05.295781 #12163] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-08-11T11:55:57.158189 #4310]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T11:55:58.194983 #4310]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-08-11T11:56:00.504482 #4310] ERROR -- Kitchen: ------Exception-------
+E, [2014-08-11T11:56:00.504550 #4310] ERROR -- Kitchen: Class: Kitchen::ActionFailed
+E, [2014-08-11T11:56:00.504589 #4310] ERROR -- Kitchen: Message: Failed to complete #converge action: [Connection refused - connect(2) for "127.0.0.1" port 2222]
+E, [2014-08-11T11:56:00.504638 #4310] ERROR -- Kitchen: ---Nested Exception---
+E, [2014-08-11T11:56:00.504668 #4310] ERROR -- Kitchen: Class: Errno::ECONNREFUSED
+E, [2014-08-11T11:56:00.504689 #4310] ERROR -- Kitchen: Message: Connection refused - connect(2) for "127.0.0.1" port 2222
+E, [2014-08-11T11:56:00.504709 #4310] ERROR -- Kitchen: ------Backtrace-------
+E, [2014-08-11T11:56:00.504729 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `initialize'
+E, [2014-08-11T11:56:00.504767 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `open'
+E, [2014-08-11T11:56:00.504787 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:70:in `block in initialize'
+E, [2014-08-11T11:56:00.504808 #4310] ERROR -- Kitchen: /Users/sam/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/timeout.rb:76:in `timeout'
+E, [2014-08-11T11:56:00.504828 #4310] ERROR -- Kitchen: /Users/sam/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/timeout.rb:127:in `timeout'
+E, [2014-08-11T11:56:00.504848 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh/transport/session.rb:67:in `initialize'
+E, [2014-08-11T11:56:00.504868 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `new'
+E, [2014-08-11T11:56:00.504888 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/net-ssh-2.9.1/lib/net/ssh.rb:202:in `start'
+E, [2014-08-11T11:56:00.504907 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:123:in `establish_connection'
+E, [2014-08-11T11:56:00.504927 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:110:in `session'
+E, [2014-08-11T11:56:00.504966 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:145:in `exec_with_exit'
+E, [2014-08-11T11:56:00.504986 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:54:in `exec'
+E, [2014-08-11T11:56:00.505006 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:110:in `run_remote'
+E, [2014-08-11T11:56:00.505026 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:44:in `block in converge'
+E, [2014-08-11T11:56:00.505046 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/ssh.rb:47:in `initialize'
+E, [2014-08-11T11:56:00.505066 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `new'
+E, [2014-08-11T11:56:00.505086 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/driver/ssh_base.rb:43:in `converge'
+E, [2014-08-11T11:56:00.505106 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/kitchen-vagrant-0.15.0/lib/kitchen/driver/vagrant.rb:75:in `converge'
+E, [2014-08-11T11:56:00.505126 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `public_send'
+E, [2014-08-11T11:56:00.505145 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `block in perform_action'
+E, [2014-08-11T11:56:00.505168 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `call'
+E, [2014-08-11T11:56:00.505220 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:308:in `synchronize_or_call'
+E, [2014-08-11T11:56:00.505242 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:283:in `block in action'
+E, [2014-08-11T11:56:00.505262 #4310] ERROR -- Kitchen: /Users/sam/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/benchmark.rb:279:in `measure'
+E, [2014-08-11T11:56:00.505282 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:282:in `action'
+E, [2014-08-11T11:56:00.505301 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:273:in `perform_action'
+E, [2014-08-11T11:56:00.505322 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:256:in `converge_action'
+E, [2014-08-11T11:56:00.505341 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:246:in `block in transition_to'
+E, [2014-08-11T11:56:00.505361 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `each'
+E, [2014-08-11T11:56:00.505381 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:245:in `transition_to'
+E, [2014-08-11T11:56:00.505401 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/instance.rb:141:in `verify'
+E, [2014-08-11T11:56:00.505421 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `public_send'
+E, [2014-08-11T11:56:00.505457 #4310] ERROR -- Kitchen: /Users/sam/.rvm/gems/ruby-2.1.2@chef-open-data-certificate/gems/test-kitchen-1.2.1/lib/kitchen/command.rb:109:in `block (2 levels) in run_action'
+E, [2014-08-11T11:56:00.505478 #4310] ERROR -- Kitchen: ----------------------
+I, [2014-08-11T11:56:08.943168 #4340]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T11:56:09.542251 #4340]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-11T11:56:11.337680 #4340]  INFO -- Kitchen: -----> Kitchen is finished. (0m2.39s)
+I, [2014-08-11T11:56:13.313735 #4399]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T11:56:13.917330 #4399]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-11T11:56:55.341670 #4399]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-08-11T12:23:45.637574 #4399] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-08-11T12:24:43.421381 #4860]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T12:24:46.320582 #4860]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-11T12:25:01.239394 #4860]  INFO -- Kitchen: -----> Kitchen is finished. (0m17.82s)
+I, [2014-08-11T13:53:30.655835 #6714]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T13:53:32.022959 #6714]  INFO -- Kitchen: -----> Creating <default-ubuntu-1404>...
+I, [2014-08-11T13:54:25.303886 #6714]  INFO -- Kitchen: -----> Converging <default-ubuntu-1404>...
+E, [2014-08-11T14:25:09.642131 #6714] ERROR -- Kitchen: Converge failed on instance <default-ubuntu-1404>.
+I, [2014-08-11T14:26:06.327801 #7243]  INFO -- Kitchen: -----> Starting Kitchen (v1.2.1)
+I, [2014-08-11T14:26:08.039975 #7243]  INFO -- Kitchen: -----> Destroying <default-ubuntu-1404>...
+I, [2014-08-11T14:26:14.001989 #7243]  INFO -- Kitchen: -----> Kitchen is finished. (0m7.67s)

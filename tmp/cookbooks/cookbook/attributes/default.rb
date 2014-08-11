@@ -17,4 +17,5 @@ default['project_fqdn'] = 'certificates.theodi.org'
 default['rack_env'] = 'production'
 default['requires_memcached'] = 'true'
 default['user'] = 'certificates'
+
 default['odi-ruby']['users'] = {'certificates' => ["1.9.3-p547"]}
