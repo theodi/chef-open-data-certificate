@@ -1,4 +1,5 @@
 default['catch_and_redirect'] = 'certificate.theodi.org'
+default['prefix'] = 'staging'
 default['databags']['primary'] = 'certificates'
 default['database'] = 'certificates'
 default['deployment']['assets_allow_origin'] = '*'
