@@ -4,7 +4,7 @@ maintainer_email 'tech@theodi.org'
 license          'MIT'
 description      'Installs/Configures Open Data Certificate nodes'
 long_description 'Installs/Configures Open Data Certificate nodes'
-version          '0.1.6'
+version          '0.1.7'
 
 depends 'odi-apt'
 depends 'odi-users'
