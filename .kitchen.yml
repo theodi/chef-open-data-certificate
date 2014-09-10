@@ -14,6 +14,7 @@ suites:
   - name: default
     run_list:
     - "recipe[rackspace-mysql-proxy]"
+    - "recipe[memcached]"
     - "recipe[chef-open-data-certificate]"
     data_bags_path: test/data_bags
     attributes:
